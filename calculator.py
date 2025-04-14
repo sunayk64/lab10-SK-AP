@@ -21,27 +21,27 @@ def hypotenuse(a, b):
         raise ValueError
 
 # First example
-def add(a, b): 
+def add(a, b):
     return a + b
 
-def subtract(a, b): 
+def sub(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0: 
         raise ZeroDivisionError
     return b/a
 
-def logarithm(a, b):
+def log(a, b):
     try:
         return math.log(b, a)
     except: 
         raise ValueError
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
 
 
