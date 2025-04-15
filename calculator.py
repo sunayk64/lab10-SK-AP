@@ -1,3 +1,7 @@
+# https://github.com/sunayk64/lab10-SK-AP
+#Partner 1: Sunay Kanade
+#Partner 2: Avadhesh Persad
+
 """
 calculator.py
 - Defines functions used to create a simple calculator

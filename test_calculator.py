@@ -1,5 +1,5 @@
-#
-#Partner 1:
+# https://github.com/sunayk64/lab10-SK-AP
+#Partner 1: Sunay Kanade
 #Partner 2: Avadhesh Persad
 
 import unittest
