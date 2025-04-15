@@ -26,9 +26,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(9, 7), 63)
 
     def test_divide(self): 
-        self.assertEqual(div(4, 2), 2)
-        self.assertEqual(div(16, 4), 4)
-        self.assertEqual(div(36, 6), 6)
+        self.assertEqual(div(2, 4), 2)
+        self.assertEqual(div(4, 16), 4)
+        self.assertEqual(div(6, 36), 6)
     # ##########################
 
     ######## Partner 2
@@ -50,7 +50,7 @@ class TestCalculator(unittest.TestCase):
     #     # use same technique from test_divide_by_zero
     #     fill in code
         with self.assertRaises(ValueError):
-            log(-1, 100)
+            logarithm(-1, 100)
 
     # ##########################
     
